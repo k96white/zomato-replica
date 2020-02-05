@@ -22,7 +22,7 @@
         ul{
            display: flex;
            
-           justify-content: space-between;
+           justify-content: flex-end;
           a{
              color: black;
            }
@@ -379,6 +379,7 @@
           flex-direction: column;
           #nav_item_1{
               
+              
               img{
                   height: 5px;
                   width: 2px;
@@ -395,20 +396,22 @@
     }
       .banner{
            position: relative;
-           img{
+          figure{
+               img{
                text-align: center;
                position: absolute;
                left: 35%;
-           }
-          #banner-text{
-              text-align: center;
-              font-weight: 600!important;
-              margin: auto;
-              position: absolute;
-              top: 50%;
-              left: 0;
-              font-size: 15px;
-              
+              }
+              #banner-text{
+               text-align: center;
+               font-weight: 600!important;
+               margin: 5px;
+               position: absolute;
+               top: 50%;
+               left: 0;
+               right:0;
+               font-size: 25px;
+              }   
               
           }
           .search-restaurant{
