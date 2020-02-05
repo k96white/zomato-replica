@@ -26,22 +26,27 @@
               <a href="#"><i class="material-icons">phone_iphone</i>Get the app</a>  
             </div>
             <div class="head-item-2">
-                <a id="nav_item_1" href="#order-food">
-                    <img src="images/order-online.svg" alt="order-online" style="width:30%;height: 30%;padding-right: 0px;">
-                        <span class="label">Order Food</span>
-                </a>
-                <a id="nav_item_2" href="#book-table">
-                    <img src="images/book-a-table.svg" alt="book-table" style="width:30%;height: 30%;padding-right: 0px;">
-                        <span class="label">Book A Table</span>
-                </a>
-                <a id="nav_item_3" href="#zomato-gold">
-                    <img src="images/gold.svg" alt="Zomato Gold" style="width:30%;height: 30%;padding-right: 0px;">
-                        <span class="label">Zomato Gold</span>
-                </a>
+                <ul>
+                   <li> <a id="nav_item_1" href="#order-food">
+                        <img src="images/order-online.svg" alt="order-online" style="width:40%;height: 40%;padding-right: 0px;">
+                           <span class="label">Order Food</span>
+                        </a>
+                    </li>     
+                   <li> <a id="nav_item_2" href="#book-table">
+                        <img src="images/book-a-table.svg" alt="book-table" style="width:40%;height: 40%;padding-right: 0px;">
+                           <span class="label">Book a Table</span>
+                        </a>
+                   </li>      
+                   <li><a id="nav_item_3" href="#zomato-gold">
+                        <img src="images/gold.svg" alt="Zomato Gold" style="width:30%;height: 20%;margin-right: 0px;">
+                           <span class="label">Zomato Gold</span>
+                       </a>
+                   </li>    
+                </ul>   
             </div>
     </header>
    
-    <br>
+    
     <section class="banner">
         <br>
         <section class="login-container">
@@ -67,7 +72,7 @@
                 </div>
               
                <input id="search-rest" type= "text" placeholder= "Search for restaurants or cuisines...">
-               <button class="search-btn" type="button">SEARCH</button>
+               <button class="search-btn" type="button">Search</button>
            </div>
     </section>
     <br><br>
@@ -168,8 +173,8 @@
                 <h2>Order Food Online</h2>
                 <p>Best Restaurants Delivering to your Doorstep</p>
                 <div class="widget">
-                    <h4>Enter Your Delivery Location</h4>
-                    <input class="search-del" type="text" placeholder= "Type delivery location here">
+                    <h4>Enter your delivery location</h4><br>
+                    <input id="search-del" type="text" placeholder= "Type delivery location here">
                     <button class="detect-btn">Detect</button>
                     <br>
                     <button class="order-btn">Order Food Online!</button>
@@ -184,7 +189,7 @@
       <section class="categories">
           <h2 id="cat-title">Quick Searches</h2>
           <p id="cat-subtitle">Discover restaurants by type of meal</p>
-          <div class="search-category">
+          <div class="category-list">
               
                   <ul class="search-list">
                       <li class="search-item1">

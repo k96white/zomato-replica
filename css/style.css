@@ -24,31 +24,32 @@
   color: black;
 }
 
-.h-container .head-item-2 {
+.h-container .head-item-2 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.h-container .head-item-2 a {
+.h-container .head-item-2 ul a {
   color: black;
 }
 
-.h-container .head-item-2 #nav_item_1 {
+.h-container .head-item-2 ul #nav_item_1 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.h-container .head-item-2 #nav_item_2 {
+.h-container .head-item-2 ul #nav_item_2 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.h-container .head-item-2 #nav_item_3 {
+.h-container .head-item-2 ul #nav_item_3 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -146,11 +147,11 @@
   background-color: cornsilk;
 }
 
-.widget input.search-del {
+.widget input#search-del {
   width: 250px;
 }
 
-.widget .search-del {
+.widget #search-del {
   border: 1px solid black;
   border-radius: 5px;
   height: 35px;
@@ -184,7 +185,7 @@
   background-color: #46a049;
 }
 
-.categories .search-category .search-list {
+.categories .category-list .search-list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,12 +196,12 @@
   text-align: center;
 }
 
-.categories .search-category .search-list img {
+.categories .category-list .search-list img {
   height: 50px;
   width: 50px;
 }
 
-.categories .search-category .search-list p {
+.categories .category-list .search-list p {
   display: inline;
 }
 
@@ -415,10 +416,7 @@ footer .footer_reference .social ul li {
 }
 
 @media screen and (max-width: 600px) {
-  .head-item-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .head-item-2 ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -471,7 +469,7 @@ footer .footer_reference .social ul li {
     height: 200px;
     width: 200px;
   }
-  .categories .search-category .search-list {
+  .categories .category-list .search-list {
     padding: 10px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
