@@ -164,9 +164,9 @@
     }    
 }
 .categories{
-    .category-list{
+    .search-category{
         
-      .search-list{
+      .category-list{
           list-style: none;
           display: flex;
           justify-content: space-between;
@@ -420,9 +420,9 @@
           }
       }
       .categories{
-        .category-list{
+        .search-category{
             
-          .search-list{
+          .category-list{
                padding: 10px;
                flex-wrap: wrap;
           }

@@ -185,7 +185,7 @@
   background-color: #46a049;
 }
 
-.categories .category-list .search-list {
+.categories .search-category .category-list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,12 +196,12 @@
   text-align: center;
 }
 
-.categories .category-list .search-list img {
+.categories .search-category .category-list img {
   height: 50px;
   width: 50px;
 }
 
-.categories .category-list .search-list p {
+.categories .search-category .category-list p {
   display: inline;
 }
 
@@ -469,7 +469,7 @@ footer .footer_reference .social ul li {
     height: 200px;
     width: 200px;
   }
-  .categories .category-list .search-list {
+  .categories .search-category .category-list {
     padding: 10px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
