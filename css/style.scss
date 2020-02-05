@@ -61,23 +61,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    img{
-        text-align: center;
-        position: absolute;
-         top: 20%;
-        left: 45%;
-       
-        height: 100px;
-        width:100px;
-    }
-    #banner-text{
-        text-align: center;
-        font-weight: 600;
-        font-size: 30px;
-        position: absolute;
-         top: 50%;
-        left: 25%;
-        color:white;
+    figure{
+        
+      img{
+          text-align: center;
+          position: absolute;
+          top: 20%;
+          left: 45%;
+          height: 100px;
+          width:100px;
+      }
+      #banner-text{
+          text-align: center;
+          font-weight: 600;
+          font-size: 23px;
+          position: absolute;
+          top: 50%;
+          left: 25%;
+          color:white;
+      }
     }
     .search-restaurant{
         text-align: center;
@@ -111,6 +113,14 @@
     img{
         height: 60%;
         width: 80%;
+    }
+    .collection-text{
+        #collection-image{
+            img{
+                height: 140px;
+                width:160px;
+            }
+        }
     }
 }
 .widget{
@@ -208,6 +218,10 @@
         text-align: center;
         #app-item1{
             padding: 40px; 
+            img{
+                height:350px;
+                width:300px;
+            }
             
         }
         #app-item2{
