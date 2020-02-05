@@ -28,9 +28,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .h-container .head-item-2 ul a {
@@ -41,18 +41,35 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  margin-right: 10px;
+}
+
+.h-container .head-item-2 ul #nav_item_1 img {
+  height: 30px;
+  width: 30px;
 }
 
 .h-container .head-item-2 ul #nav_item_2 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  margin-right: 10px;
+}
+
+.h-container .head-item-2 ul #nav_item_2 img {
+  height: 30px;
+  width: 30px;
 }
 
 .h-container .head-item-2 ul #nav_item_3 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.h-container .head-item-2 ul #nav_item_3 img {
+  height: 30px;
+  width: 30px;
 }
 
 .login-container #login-navigation {
@@ -421,6 +438,10 @@ footer .footer_reference .social ul li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .head-item-2 ul #nav_item_1 img {
+    height: 5px;
+    width: 2px;
   }
   .login-container #login-navigation {
     float: none;

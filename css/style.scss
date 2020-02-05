@@ -22,19 +22,34 @@
         ul{
            display: flex;
            
-           justify-content: flex-end;
+           justify-content: space-between;
           a{
              color: black;
            }
            
            #nav_item_1{
               flex: 1;
+              margin-right: 10px;
+              img{
+                  height: 30px;
+                  width: 30px;
+              }
            }
            #nav_item_2{
               flex: 1;
+              margin-right: 10px;
+              img{
+                height: 30px;
+                width: 30px;
+            }
+
            }
            #nav_item_3{
               flex: 1;
+              img{
+                height: 30px;
+                width: 30px;
+            }
            }
       }
   } 
@@ -362,6 +377,13 @@
         ul{
           
           flex-direction: column;
+          #nav_item_1{
+              
+              img{
+                  height: 5px;
+                  width: 2px;
+              }
+          }
         }
     }
     .login-container{
