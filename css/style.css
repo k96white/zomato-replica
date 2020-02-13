@@ -154,8 +154,12 @@
 }
 
 .collection-box .collection-text #collection-image img {
-  height: 140px;
-  width: 160px;
+  height: 100%;
+  width: 100%;
+}
+
+.collection-box .collection-text #collection-image .card-body {
+  height: 70%;
 }
 
 .widget {
@@ -165,10 +169,7 @@
 }
 
 .widget input#search-del {
-  width: 250px;
-}
-
-.widget #search-del {
+  width: 75%;
   border: 1px solid black;
   border-radius: 5px;
   height: 35px;
